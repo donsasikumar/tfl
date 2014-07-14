@@ -19,51 +19,62 @@ Displayed below in the console debug information from running the application. [
 
 
 Enter pickup point[eg:Enter LV - London Victoria/LWL - London Waterloo/EU - London Euston/..] :
+
 **LV
+
 List of local transport services at London Victoria
 Victoria Transport Services1
 Victoria Transport Services2
 Victoria Transport Services3
 Victoria Transport Services4
+
 Select Service [1/2/3/..] :
-Jul 14, 2014 7:14:18 AM com.livware.tfl.myRide main
-INFO: Source station:London Victoria
+
 **1
+
 List of registered Transporters from this area ..
 Driver{licenseID='1'}
 Driver{licenseID='2'}
 Driver{licenseID='3'}
 Driver{licenseID='4'}
 Driver{licenseID='5'}
+
 Select Driver [1/2/3..] :
+
 **2
+
 Driver{licenseID='3'}
 ReviewRecord{author='Very good'}
 ReviewRecord{author='good'}
 ReviewRecord{author='Bad'}
 ReviewRecord{author='Average'}
 ReviewRecord{author='Very bad'}
+
 Enter pickup point[eg:Enter LV - London Victoria/LWL - London Waterloo/EU - London Euston/..] :
+
 **EU
-Jul 14, 2014 7:14:30 AM com.livware.tfl.myRide main
+
 INFO: Destination station:EU
 EU
-Jul 14, 2014 7:14:30 AM com.livware.tfl.myRide main
-INFO: Destination :Station{stationCode='EU', stationName='Euston'}
+me='Euston'}
+
 Suggested Route :
 Station{stationCode='LV', stationName='Victoria'}
 Station{stationCode='GP', stationName='Greenpark'}
 Station{stationCode='OC', stationName='OxfordCircus'}
 Station{stationCode='WS', stationName='Warrenstreet'}
 Station{stationCode='EU', stationName='Euston'}
+
 Total distance :22.0
+
 Enter Username [user1/user2/..]:
+
 **user1
+
 Existing User :User{name='user1', address='BuckinghamPalace', cardDetails='goldcard', age=2}
 Fare before discount :52.8
-Jul 14, 2014 7:14:34 AM com.livware.tfl.utility.TariffUtil applyUserDiscounts
+
 Fare after datetime discounts :44.0
 INFO: Applying discount for NETWORK-RAILCARD
 Fare after user discounts :7.919999999999999
-Jul 14, 2014 7:14:34 AM com.livware.tfl.utility.TariffUtil applyUserDiscounts
 INFO: Applying discount for FAMILY-RAILCARD
