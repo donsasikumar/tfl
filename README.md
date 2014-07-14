@@ -72,9 +72,13 @@ Enter Username [user1/user2/..]:
 **user1
 
 Existing User :User{name='user1', address='BuckinghamPalace', cardDetails='goldcard', age=2}
+
 Fare before discount :52.8
 
 Fare after datetime discounts :44.0
+
 INFO: Applying discount for NETWORK-RAILCARD
+
 Fare after user discounts :7.919999999999999
+
 INFO: Applying discount for FAMILY-RAILCARD
